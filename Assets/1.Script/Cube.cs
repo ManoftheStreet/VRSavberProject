@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class Cube : MonoBehaviour
 {
-    // Update is called once per frame
+    public float speed = 5f;// Update is called once per frame
+ 
+
     void Update()
     {
-        transform.position += Time.deltaTime * transform.forward * 3;
+        transform.position += Time.deltaTime * transform.forward * 5.0f;
     }
 }
